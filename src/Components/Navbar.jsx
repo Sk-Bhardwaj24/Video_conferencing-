@@ -11,11 +11,6 @@ function Navbar() {
 
   return (
     <nav>
-      <img
-        className="logo"
-        src="https://ashwins93.app.100ms.live/static/media/100ms_logo.3cfd8818.svg"
-        alt="logo"
-      />
       {isConnected && (
         <button
           id="leave-btn"
