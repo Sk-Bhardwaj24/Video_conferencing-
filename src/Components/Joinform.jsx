@@ -2,26 +2,37 @@ import { useHMSActions } from "@100mslive/react-sdk";
 import { useState } from "react";
 import styled from "styled-components";
 const Form = styled.form`
-  width: 35vw;
-  margin: auto;
-
-  display: flex;
-  flex-direction: column;
-  color: white;
-  background-color: rgb(38, 50, 56);
+  max-width: 450px;
+  margin: 30px auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  .input-container {
+    margin-bottom: 20px;
+  }
   .input-container > input {
-    width: 20rem;
-    height: 40px;
-    margin: 20px;
-    border-radius: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    height: 34px;
+    padding: 5px;
+    background: #37474f;
+    color: inherit;
+    font-family: inherit;
   }
   .btn {
-    width: 8vw;
-    margin: auto;
-    height: 40px;
-    background-color: lightblue;
-    border: 1px solid white;
-    margin-bottom: 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 14px;
+    background-color: #1565c0;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: white;
   }
 `;
 
