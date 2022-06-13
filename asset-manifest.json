@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Video_conferencing-/static/css/main.4be5b0db.css",
+    "main.js": "/Video_conferencing-/static/js/main.0c29ddde.js",
+    "index.html": "/Video_conferencing-/index.html",
+    "main.4be5b0db.css.map": "/Video_conferencing-/static/css/main.4be5b0db.css.map",
+    "main.0c29ddde.js.map": "/Video_conferencing-/static/js/main.0c29ddde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4be5b0db.css",
+    "static/js/main.0c29ddde.js"
+  ]
+}
