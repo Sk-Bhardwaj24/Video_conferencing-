@@ -5,6 +5,7 @@ import {
 } from "@100mslive/react-sdk";
 import React from "react";
 import styled from "styled-components";
+import Logo from "../Img/logo.png";
 const Nav = styled.nav`
   padding: 10px;
   display: flex;
@@ -21,18 +22,18 @@ const Button = styled.button`
   font-size: 14px;
   cursor: pointer;
 `;
+const Img = styled.img`
+  width: 60px;
+  height: 60px;
+`;
 
 function Navbar() {
   const isConnected = useHMSStore(selectIsConnectedToRoom);
   const hmsActions = useHMSActions();
 
   return (
-    <nav>
-      <img
-        className="logo"
-        src="https://ashwins93.app.100ms.live/static/media/100ms_logo.3cfd8818.svg"
-        alt="logo"
-      />
+    <Nav>
+      <Img className="log" src={Logo} alt="logo" />
       {isConnected && (
         <Button
           id="leave-btn"
@@ -42,7 +43,7 @@ function Navbar() {
           Leave Room
         </Button>
       )}
-    </nav>
+    </Nav>
   );
 }
 

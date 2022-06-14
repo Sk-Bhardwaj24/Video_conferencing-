@@ -35,6 +35,7 @@ const Div = styled.div`
 function Footer() {
   const { isLocalAudioEnabled, isLocalVideoEnabled, toggleAudio, toggleVideo } =
     useAVToggle();
+  console.log(isLocalAudioEnabled);
   return (
     <Div>
       <button className="btn-control" onClick={toggleAudio}>

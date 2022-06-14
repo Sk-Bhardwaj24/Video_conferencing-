@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Form = styled.form`
   max-width: 450px;
   margin: 30px auto;
+  background-color: white;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   padding: 20px;
