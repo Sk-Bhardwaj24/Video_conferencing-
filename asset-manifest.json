@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Video_conferencing-/static/css/main.4be5b0db.css",
-    "main.js": "/Video_conferencing-/static/js/main.0c29ddde.js",
+    "main.css": "/Video_conferencing-/static/css/main.3a685b0c.css",
+    "main.js": "/Video_conferencing-/static/js/main.e2deec32.js",
+    "static/media/logo.png": "/Video_conferencing-/static/media/logo.b27c6bd8ba3aaa00a38b.png",
     "index.html": "/Video_conferencing-/index.html",
-    "main.4be5b0db.css.map": "/Video_conferencing-/static/css/main.4be5b0db.css.map",
-    "main.0c29ddde.js.map": "/Video_conferencing-/static/js/main.0c29ddde.js.map"
+    "main.3a685b0c.css.map": "/Video_conferencing-/static/css/main.3a685b0c.css.map",
+    "main.e2deec32.js.map": "/Video_conferencing-/static/js/main.e2deec32.js.map"
   },
   "entrypoints": [
-    "static/css/main.4be5b0db.css",
-    "static/js/main.0c29ddde.js"
+    "static/css/main.3a685b0c.css",
+    "static/js/main.e2deec32.js"
   ]
 }
